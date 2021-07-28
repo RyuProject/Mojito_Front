@@ -30,13 +30,14 @@ const Home = ({ t }) => {
             <div className={styles.wrapper}>
                 <div className={styles.banner}>
                     <div className={styles.text}>
+                        <div className={styles.cow}></div>
                         <h1></h1>
                         <p>MOJITO.finance</p>
                         <p>Future finance leader,The future of trading.</p>
                         <p>
                             <button className={styles.lauch}>Launch App</button>
                             <button className={styles.docs}>Mojito Docs</button>
-                            <Link href="/">FAQs</Link>
+                            <Link href="/" >FAQs</Link>
                         </p>
                     </div>
                 </div>
